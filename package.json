@@ -1,0 +1,40 @@
+{
+  "name": "mern-ecommerce-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js",
+    "dev": "nodemon -r esm server.js",
+    "generate": "node -r esm ./debug/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helixious/mern-ecommerce-server.git"
+  },
+  "author": "sle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helixious/mern-ecommerce-server/issues"
+  },
+  "homepage": "https://github.com/helixious/mern-ecommerce-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.7"
+  }
+}
